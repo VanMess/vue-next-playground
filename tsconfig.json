@@ -1,0 +1,25 @@
+{
+	"compilerOptions": {
+		"rootDir": ".",
+		"baseUrl": "./src",
+		"outDir": "dist",
+		"sourceMap": false,
+		"target": "esnext",
+		"module": "esnext",
+		"moduleResolution": "node",
+		"allowJs": false,
+		"strict": false,
+		"noUnusedLocals": true,
+		"experimentalDecorators": true,
+		"resolveJsonModule": true,
+		"esModuleInterop": true,
+		"removeComments": false,
+		"jsx": "preserve",
+		"lib": ["esnext", "dom"],
+		"paths": {
+			"@vue/*": ["../vue-next/packages/*/src"],
+			"@vue/reactivity": ["../vue-next/packages/reactivity/src/index.ts"]
+		}
+	},
+	"files": ["src/main.ts"]
+}
